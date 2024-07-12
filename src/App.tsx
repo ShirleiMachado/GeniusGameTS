@@ -1,14 +1,8 @@
 import React from "react";
-import Game from "./components/Game"; // Importe aqui o componente principal do seu jogo
-import GlobalStyles from "./styles/GlobalStyles";
+import Game from "./components/Game";
 
 const App: React.FC = () => {
-  return (
-    <div>
-      <GlobalStyles />
-      <Game /> {/* Renderize aqui o componente principal do seu jogo */}
-    </div>
-  );
+  return <Game />;
 };
 
 export default App;
